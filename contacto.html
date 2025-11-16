@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Metalocalypse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Texturina:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-body">
+
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">Metalocalypse</a>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="personajes.html" class="nav-link">Personajes</a></li>
+                    <li><a href="episodios.html" class="nav-link">Episodios</a></li>
+                    <li><a href="contacto.html" class="nav-link active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <h1 class="section-title">Únete al Klok</h1>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="nombre" class="form-label">Tu Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Tu Email:</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="comentario" class="form-label">Deja tu comentario:</label>
+                <textarea id="comentario" name="comentario" rows="5" class="form-input"></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar Mensaje Brutal</button>
+        </form>
+    </main>
+
+    <footer class="main-footer">
+        <p class="footer-text">Metalocalypse Fan Page &copy; 2025. Creado solo por y para fans.</p>
+    </footer>
+
+</body>
+</html>
