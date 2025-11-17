@@ -95,48 +95,48 @@
     padding: 4rem 1rem;
 }
 
-.hero-title {
+.heroTitulo {
     font-family: 'Pirata One', cursive;
     font-size: 4rem;
     margin: 0;
 }
 
-.hero-subtitle {
+.heroSubTitulo {
     font-size: 1.5rem;
     color: #888888;
     margin: 0;
 }
 
-.presentation {
+.presentacion {
     max-width: 900px;
     margin: 2rem auto;
     text-align: left;
 }
 
-.presentation-text {
+.presentacionTexto {
     font-size: 1.1rem;
     margin-bottom: 1rem;
     color: #cccccc;
 }
 
-.band-promo {
+.bandaTarjeta {
     max-width: 900px;
     margin: 4rem auto;
 }
 
-.band-card {
+.tarjetaBanda {
     background-color: #1c1c1c;
     padding: 1rem;
     box-shadow: 0 6px 25px rgba(164, 0, 0, 0.7);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.band-card:hover {
+.tarjetaBanda:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 35px rgba(255, 0, 0, 0.8);
 }
 
-.band-image {
+.bandaImg {
     width: 100%;
     display: block;
 }
@@ -145,14 +145,14 @@
                             3.2 PAGINA DE PERSONAJES
    ========================================================================== */
 
-.characters-container {
+.personajesContenedor {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-.character-card {
+.personajesTarjeta {
     background-color: #1c1c1c;
     border: 2px solid #a40000;
     transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
@@ -160,27 +160,27 @@
     width: 250px;
 }
 
-.character-card:hover {
+.personajesTarjeta:hover {
     border-color: #ff0000;
     box-shadow: 0 6px 25px rgba(164, 0, 0, 0.7);
     transform: translateY(-5px);
 }
 
-.card-image {
+.tarjetaImg {
     width: 100%;
     display: block;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
 
-.card-title {
+.tarjetaTitulo {
     font-family: 'Pirata One', cursive;
     font-size: 1.8rem;
     padding: 1rem 0 0.5rem;
     margin: 0;
 }
 
-.card-text {
+.tarjetaTexto {
     padding: 0 1rem 1rem;
     color: #888888;
     margin: 0;
@@ -190,12 +190,12 @@
                             3.3 PAGINA DE EPISODIOS
    ========================================================================== */
 
-.episodes-list {
+.episodiosLista {
     max-width: 900px;
     margin: 0 auto;
 }
 
-.episode-item {
+.episodiosItem {
     background-color: #1c1c1c;
     border-left: 4px solid #a40000;
     padding: 1.5rem;
@@ -203,24 +203,24 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.episode-item:hover {
+.episodiosItem:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 25px rgba(164, 0, 0, 0.7);
 }
 
-.episode-title {
+.episodiosTitulo {
     font-family: 'Pirata One', cursive;
     font-size: 2rem;
     margin: 0 0 0.5rem 0;
     color: #f0f0f0;
 }
 
-.episode-description {
+.episodiosDescripcion {
     margin: 0;
     color: #cccccc;
 }
 
-.coming-soon-text {
+.msjComingSoon {
     text-align: center;
     font-style: italic;
     color: #888888;
@@ -324,7 +324,7 @@
         width: 100%;
     }
     
-    .hero-title {
+    .heroTitulo {
         font-size: 3rem;
     }
 }
