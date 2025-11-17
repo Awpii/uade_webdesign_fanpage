@@ -1,8 +1,11 @@
-/* --- Estilos de la Página y Contenedores --- */
+/* ==========================================================================
+                        1. ESTILO GENERAL
+   ========================================================================== */
+
 .page-body {
     font-family: 'Texturina', serif;
-    background-color: #101010; /* Negro más profundo */
-    color: #f0f0f0; /* Blanco ligeramente apagado para el texto */
+    background-color: #101010;
+    color: #f0f0f0;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -13,14 +16,26 @@
 
 .main-content {
     padding: 2rem;
-    flex-grow: 1; /* Hace que el contenido principal ocupe el espacio disponible */
+    flex-grow: 1;
 }
 
-/* --- Encabezado y Navegación --- */
+.section-title {
+    font-family: 'Pirata One', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #cfcfcf;
+}
+
+/* ==========================================================================
+                        2. HEADER Y NAV
+   ========================================================================== */
+
 .main-header {
-    background-color: #000000; /* Negro puro */
+    background-color: #000000;
     padding: 1rem 2rem;
-    border-bottom: 2px solid #cfcfcf; /* Borde gris metálico */
+    border-bottom: 2px solid #cfcfcf;
 }
 
 .header-container {
@@ -37,7 +52,7 @@
     font-size: 2.5rem;
     color: #cfcfcf;
     text-decoration: none;
-    text-shadow: 0 0 8px rgba(255, 80, 80, 0.9), 0 0 20px rgba(164, 0, 0, 0.9); #dos sombras stackeadas para que brille el fondo del texto.
+    text-shadow: 0 0 8px rgba(255, 80, 80, 0.9), 0 0 20px rgba(164, 0, 0, 0.9);
 }
 
 .nav-list {
@@ -67,17 +82,14 @@
     text-shadow: 0 0 10px rgba(255, 0, 0, 1), 0 0 25px rgba(255, 0, 0, 0.8);
 }
 
-/* --- Estilos de Contenido General --- */
-.section-title {
-    font-family: 'Pirata One', cursive;
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    color: #cfcfcf; /* Títulos en gris metálico */
-}
+/* ==========================================================================
+                            3. ESTILOS POR PAG
+   ========================================================================== */
 
-/* Página de Inicio (Hero y Presentación) */
+/* ==========================================================================
+                            3.4 PAGINA DE INICIO
+   ========================================================================== */
+
 .hero {
     text-align: center;
     padding: 4rem 1rem;
@@ -91,7 +103,7 @@
 
 .hero-subtitle {
     font-size: 1.5rem;
-    color: #888888; /* Gris oscuro para subtítulos */
+    color: #888888;
     margin: 0;
 }
 
@@ -107,8 +119,32 @@
     color: #cccccc;
 }
 
+.band-promo {
+    max-width: 900px;
+    margin: 4rem auto;
+}
 
-/* Página de Personajes */
+.band-card {
+    background-color: #1c1c1c;
+    padding: 1rem;
+    box-shadow: 0 6px 25px rgba(164, 0, 0, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.band-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 35px rgba(255, 0, 0, 0.8);
+}
+
+.band-image {
+    width: 100%;
+    display: block;
+}
+
+/* ==========================================================================
+                            3.2 PAGINA DE PERSONAJES
+   ========================================================================== */
+
 .characters-container {
     display: flex;
     justify-content: center;
@@ -150,16 +186,9 @@
     margin: 0;
 }
 
-/* Página de Episodios */
-.episodes-summary {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.summary-text {
-    margin: 0;
-}
+/* ==========================================================================
+                            3.3 PAGINA DE EPISODIOS
+   ========================================================================== */
 
 .episodes-list {
     max-width: 900px;
@@ -198,28 +227,9 @@
     margin-top: 3rem;
 }
 
-/* Imagen en el index de la banda */
-.band-promo {
-    max-width: 1200px;
-    margin: 4rem auto;
-}
-
-.band-card {
-    background-color: #1c1c1c;
-    padding: 1rem;
-    box-shadow: 0 6px 25px rgba(164, 0, 0, 0.7);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.band-card:hover {
-    box-shadow: 0 8px 35px rgba(255, 0, 0, 0.8);
-}
-
-.band-image {
-    width: 100%;
-    display: block;
-}
-/* Página de Contacto (Formulario) */
+/* ==========================================================================
+                            3.4 PAGINA DE CONTACTO
+   ========================================================================== */
 
 .contact-intro {
     max-width: 700px;
@@ -267,10 +277,9 @@
     box-shadow: 0 0 10px rgba(164, 0, 0, 0.7);
 }
 
-/* Botón */
 .btn {
     display: inline-block;
-    background-color: #a40000; /* Rojo sangre */
+    background-color: #a40000;
     color: white;
     padding: 0.8rem 2rem;
     border: none;
@@ -281,15 +290,17 @@
 }
 
 .btn:hover {
-    background-color: #800000; /* Rojo más oscuro */
+    background-color: #800000;
 }
 
-/* --- Pie de Página --- */
+/* ==========================================================================
+                                4. FOOTER
+   ========================================================================== */
+
 .main-footer {
-    background-color: #000000; /* Negro puro */
+    background-color: #000000;
     text-align: center;
     padding: 2rem;
-    margin-top: 2rem;
 }
 
 .footer-text {
@@ -297,9 +308,10 @@
     margin: 0;
 }
 
+/* ==========================================================================
+                            5. MEDIA QUERY
+   ========================================================================== */
 
-
-/* --- Media Query para Responsive --- */
 @media (max-width: 768px) {
     .header-container {
         flex-direction: column;
